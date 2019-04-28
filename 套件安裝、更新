@@ -4,3 +4,4 @@ pip install keras
 pip install -U numpy -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 pip install h5py==2.8.0rc1
+pip install --upgrade pandas
