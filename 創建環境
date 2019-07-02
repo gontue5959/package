@@ -6,3 +6,7 @@ activate PYTHON_NAME
 
 #更新pip
 python -m pip install --upgrade pip
+
+
+#安裝 tensorflow-gpu
+pip install --ignore-installed --upgrade tensorflow-gpu
