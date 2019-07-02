@@ -1,0 +1,8 @@
+#創建環境
+conda create -n PYTHON_NAME pip python=3.5
+
+#開啟環境
+activate PYTHON_NAME
+
+#更新pip
+python -m pip install --upgrade pip
