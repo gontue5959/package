@@ -7,6 +7,11 @@ activate PYTHON_NAME
 #更新pip
 python -m pip install --upgrade pip
 
-
 #安裝 tensorflow-gpu
 pip install --ignore-installed --upgrade tensorflow-gpu
+
+#查看有哪些虛擬環境
+conda env list
+
+#查看環境所安裝的套件
+conda list
