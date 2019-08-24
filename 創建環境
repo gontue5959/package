@@ -15,3 +15,8 @@ conda env list
 
 #查看環境所安裝的套件
 conda list
+
+#查看tensorflow為CPU 
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+
