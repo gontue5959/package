@@ -20,3 +20,5 @@ conda list
 from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
 
+#安裝 keras
+conda install keras
