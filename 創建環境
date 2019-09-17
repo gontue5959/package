@@ -17,8 +17,18 @@ conda env list
 conda list
 
 #查看tensorflow為CPU 
+(python)
 from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
 
 #安裝 keras
 conda install keras
+
+#查看GPU驅動與CUDA版本
+  (nvidia-smi所在的位置为： C:\Program Files\NVIDIA Corporation\NVSMI ) <= 可加入還進變數Path
+  nvidia-smi  #查看驅動版本
+  nvidia-smi.exe -l 1 #查看驅動版本(一秒钟更新一次信息)
+  
+  nvcc -V #查看CUDA版本
+
+
