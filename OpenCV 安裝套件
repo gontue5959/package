@@ -1,3 +1,3 @@
 conda install -c menpo dlib=18.18
 
-
+pip install face_recognition
