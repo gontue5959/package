@@ -6,4 +6,6 @@ pip install -U numpy -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 pip install h5py==2.8.0rc1
 pip install --upgrade pandas
-pip install pylint #偵錯套件
+
+#偵錯套件
+pip install pylint 
