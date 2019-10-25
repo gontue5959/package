@@ -10,6 +10,12 @@ python -m pip install --upgrade pip
 #安裝 tensorflow-gpu
 conda install -c anaconda tensorflow-gpu
 
+#移除虛擬環境中的套件(以myenv環境中numpy為例)
+conda remove --name myenv numpy
+
+#移除整個虛擬環境(以myenv為例)
+conda env remove --name myenv
+
 #查看有哪些虛擬環境
 conda env list
 
