@@ -1,6 +1,9 @@
 #創建環境
 conda create -n PYTHON_NAME pip python=3.5
 
+#複製環境
+conda create --name NEW --clone OLD_NAME
+
 #開啟環境
 activate PYTHON_NAME
 
