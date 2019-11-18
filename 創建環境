@@ -39,5 +39,8 @@ conda install keras
   nvidia-smi.exe -l 1 #查看驅動版本(一秒钟更新一次信息)
   
   nvcc -V #查看CUDA版本
+  
+  #安裝下載好的套件
+  python setup.py install
 
 
