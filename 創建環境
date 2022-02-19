@@ -7,6 +7,12 @@ conda create --name [NEW] --clone [OLD_NAME]
 #進入環境
 activate PYTHON_NAME
 
+# 導出環境中所使用的所有套件
+pip freeze > requirements.txt
+
+# 導入特定清單中的所有套件
+pip install -r requirements.txt
+
 #更新pip
 python -m pip install --upgrade pip
 
